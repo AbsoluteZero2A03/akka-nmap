@@ -1,0 +1,9 @@
+[error] /home/em/Documents/code/akka-nmap/akkanmap.scala:15: not found: type Scanner
+[error]     val child = context.actorOf(Props[Scanner], name = "child")
+[error]                                       ^
+[error] /home/em/Documents/code/akka-nmap/akkanmap.scala:24: not found: type ScannerManager
+[error]     val a = system.actorOf(Props[ScannerManager], "actor")
+[error]                                  ^
+[error] two errors found
+[error] (compile:compileIncremental) Compilation failed
+[error] Total time: 4 s, completed 20-Jul-2015 8:04:26 PM
